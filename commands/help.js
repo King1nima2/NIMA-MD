@@ -7,8 +7,8 @@ async function helpCommand(sock, chatId, channelLink) {
 ╔═══════════════════╗
    *🤖 ${settings.botName || 'NIMA-MD'}*  
    Version: *${settings.version || '1.0.0'}*
-  Created by ${settings.botOwner || 'KING NIMA'}
-   Creater name : ${global.ytch}
+   Owner: *${settings.botOwner || 'KING NIMA'}*
+   Creater name : *${global.ytch}*
 ╚═══════════════════╝
 
 *NIMA MD Available Commands:*
@@ -26,7 +26,6 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .weather <city>
 ║ ➤ .news
 ║ ➤ .attp <text>
-║ ➤ .lyrics <song_title>
 ║ ➤ .8ball <question>
 ║ ➤ .groupinfo
 ║ ➤ .staff or .admins 
@@ -100,7 +99,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .ship @user
 ╚═══════════════════╝
 
-Download cmd coming next update\n\n
+*Download cmd coming next update*\n\n
 *© Powered By King Nima*`;
 
     try {
